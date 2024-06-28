@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: hsl(0, 0%, 100%);
+}
+
+main {
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    width: 80vw;
+    border-radius: 2%;
+}
+
+main #texto{
+    margin: 5% 8% 5% 5%;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#texto strong {
+    color: hsl(277, 64%, 61%);
+}
+
+#texto h1{
+    font-family: Inter;
+    font-weight: 700;
+    margin-bottom: 4%;
+    font-size: 37px;
+}
+
+#texto p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: Lexend Deca;
+    text-align: left;
+    margin-bottom: 15%;
+    padding-right: 10%;
+}
+
+
+
+#numeros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+#numeros h1{
+    font-size: 25px;
+}
+
+#numeros p {
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+#numeros{
+    padding-right: 5%;
+}
+
+main #imagem{
+    min-width: 49%;
+    max-width: 50%;
+    background-image: url(images/image-header-desktop.jpg);
+    opacity: 0.5;
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+}
+
